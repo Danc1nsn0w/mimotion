@@ -15,4 +15,4 @@ jobs:
           token: ${{ secrets.PAT }} #此处PAT需要申请，教程详见：https://www.jianshu.com/p/bb82b3ad1d11,需要repo和workflow权限
       - name: random cron
         run: |
-          print(111)
+          git branch
